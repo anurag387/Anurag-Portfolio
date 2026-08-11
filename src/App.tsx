@@ -33,6 +33,10 @@ import { identity, aboutCopy, techStack, areasOfInterest, featuredProjects, achi
 
 // Profile photo sourced directly from GitHub avatar
 const anuragGithubAvatar = "https://avatars.githubusercontent.com/u/286923494?v=4";
+// Portrait assets uploaded by Anurag
+const anuragBikeOutdoor = new URL('./assets/images/anurag_bike_outdoor.png', import.meta.url).href;
+const anuragKurtaBridge = new URL('./assets/images/anurag_kurta_bridge.png', import.meta.url).href;
+const anuragNightHoodie = new URL('./assets/images/anurag_night_hoodie.png', import.meta.url).href;
 
 export default function App() {
   const [activePage, setActivePage] = useState<'home' | 'about' | 'projects' | 'achievements' | 'contact'>('home');
@@ -50,6 +54,27 @@ export default function App() {
       src: anuragGithubAvatar,
       alt: 'Anurag Barmon GitHub profile photo',
       label: 'PORTRAIT // GITHUB',
+      status: 'TRACKING_OK'
+    },
+    {
+      type: 'image',
+      src: anuragBikeOutdoor,
+      alt: 'Anurag Barmon outdoor portrait',
+      label: 'PORTRAIT // OUTDOOR',
+      status: 'TRACKING_OK'
+    },
+    {
+      type: 'image',
+      src: anuragKurtaBridge,
+      alt: 'Anurag Barmon riverside portrait',
+      label: 'PORTRAIT // RIVERSIDE',
+      status: 'TRACKING_OK'
+    },
+    {
+      type: 'image',
+      src: anuragNightHoodie,
+      alt: 'Anurag Barmon night portrait',
+      label: 'PORTRAIT // NIGHT',
       status: 'TRACKING_OK'
     }
   ];
@@ -158,7 +183,7 @@ exploring:
             onClick={() => setActivePage('home')}
             className="w-10 h-10 rounded-xl bg-white/[0.03] border border-white/[0.08] flex items-center justify-center mb-2 shadow-lg cursor-pointer transition-colors hover:bg-white/[0.08] font-mono text-[11px] font-bold text-[#00e559]"
           >
-            PB
+            AB
           </div>
           
           <nav className="flex flex-col gap-3 w-full px-3" id="sidebar-nav">
@@ -820,7 +845,7 @@ exploring:
               
               <div className="bg-[#121316]/90 backdrop-blur-xl border border-white/[0.08] rounded-[24px] p-6 md:p-8 shadow-2xl text-center select-text">
                 <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#1a1b1e] to-[#0c0d0f] border border-white/10 flex items-center justify-center mx-auto mb-4 shadow-[0_0_20px_rgba(0,0,0,0.5)]">
-                  <span className="font-mono text-2xl font-bold text-[#00e559]/90">PB</span>
+                  <span className="font-mono text-2xl font-bold text-[#00e559]/90">AB</span>
                 </div>
                 
                 <h2 className="text-lg text-zinc-100 font-medium mb-1">Let's build something beautiful.</h2>
