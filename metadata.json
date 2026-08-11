@@ -1,0 +1,6 @@
+{
+  "name": "Anurag Barmon Portfolio",
+  "description": "A dark, high-performance, technical engineering console portfolio for Anurag Barmon, CSE Student and Developer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
