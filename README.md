@@ -14,7 +14,7 @@
 <h1>ANURAG_BARMON<span style="color:#00E559">_</span></h1>
 <p><code>CSE_CONSOLE // ONLINE</code></p>
 
-<a href="https://github.com/anurag387/Anurag-Portfolio"><b>→ LIVE_DEMO</b></a>
+<a href="https://anurag-barmon-portfolio.netlify.app/"><b>→ LIVE_DEMO</b></a>
 &nbsp;·&nbsp;
 <a href="#getting-started"><b>RUN_LOCALLY</b></a>
 &nbsp;·&nbsp;
